@@ -388,3 +388,20 @@ header.sticky{
     border-radius: 50px;
     margin-bottom: 20px;
 }
+.s.s-one img{
+    background: #B4B8FE;
+}
+.s.s-two img{
+    background: #01A08A;
+}
+.s.s-three img{
+    background: #FAFF05;
+}
+.s.s-four img{
+    background: #93a0a1;
+}
+.row h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: px;
+}
