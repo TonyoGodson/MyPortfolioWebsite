@@ -372,7 +372,15 @@ header.sticky{
     align-items: center;
     margin-top: 5rem;
 }
-.row{
+.row1{
+    background: #ffffff;
+    box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
+    border-radius: 12px;
+    padding: 45px 45px 45px 45px;
+    transition: ease .45s;
+    cursor: pointer;
+}
+.row2{
     background: #ffffff;
     box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
     border-radius: 12px;
@@ -404,4 +412,57 @@ header.sticky{
     font-size: 24px;
     font-weight: 500;
     margin-bottom: px;
+}
+.row h5{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 19px;
+}
+.row p{
+    font-size: var(--p-font);
+    color: var(--secound-color);
+    line-height: 28px;
+}
+.row1:hover{
+      will-change: transform;
+    transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05, 1.05, 1.05 );
+    /* transform: perspective(1000px) rotateX(-4.80deg) rotateY(-10.23deg) scale3d(1.05, 1.05, 1.05 ); */
+}
+.row2:hover{
+    will-change: transform;
+  /* transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05, 1.05, 1.05 ); */
+  transform: perspective(1000px) rotateX(-4.80deg) rotateY(-10.23deg) scale3d(1.05, 1.05, 1.05 );
+}
+.cta-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+    text-align: center;
+}
+.wrap{
+    background: #ffffff;
+    box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
+    border-radius: 12px;
+    padding: 50px 50px 50px 50px;
+    transition: ease .40s;
+    cursor: pointer;
+}
+.one{
+    background: #01A08A;
+}
+.two{
+    background: #FAFF05;
+}
+.three{
+    background: #f75124;
+}
+.wrap h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.wrap p{
+    font-size: var(--p-font);
 }
